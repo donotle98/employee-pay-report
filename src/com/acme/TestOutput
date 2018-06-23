@@ -1,0 +1,35 @@
+//Test Output
+
+
+Enter the name:
+Don
+Enter the type of employee:
+Salary
+How much does Don get paid per month?6000
+Do you want to add a new employee? true or false
+true
+Enter the name:
+Jon
+Enter the type of employee:
+Hourly
+How much does Jon get paid per hour?
+43.99
+How many hours a week does Jon work?
+35
+Do you want to add a new employee? true or false
+true
+Enter the name:
+Timmy
+Enter the type of employee:
+commission
+How much did Timmy make this week?8000
+Do you want to add a new employee? true or false
+false
+Name 		Class		Hours	Sales	Rate	Weekly Pay
+=================================================================================
+Don           Salary 							1650.0*	
+Jon           Hourly 		35.0		43.99	1539.65
+Timmy         Commissioned 		8000.0			1600.0
+=================================================================================
+TOTAL 4789.65
+*A 10% bonus is awarded

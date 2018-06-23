@@ -1,0 +1,17 @@
+	private static void useDummyData(List<UserInput> allUserInput) {
+		UserInput salary = new UserInput("salary", "Aaaa");
+		salary.setSalaryPaid(3200);
+		
+		allUserInput.add(salary);
+		
+		UserInput hourly = new UserInput("hourly", "Hourly Man");
+		hourly.setHoursWorked(40);
+		hourly.setRate(16.98);
+		allUserInput.add(hourly);
+		
+		UserInput comm = new UserInput("commission", "Hourly Man");
+		comm.setWeeklyMadeSales(6200);
+		allUserInput.add(comm);
+		
+		
+	}
